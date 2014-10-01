@@ -1,0 +1,64 @@
+.main-header {
+    height: 300px;
+    width: 100%;
+    background-image: url("../img/image.png");;
+    margin: auto;
+    background-color: #dcdcdc;
+    z-index: 0;
+    /*http://nixterrimus.github.io/Triangle-Play-App Pattern Generator/*/
+}
+
+
+.main-text {
+    font-family: 'Bilbo Swash Caps', cursive;
+    text-align: right;
+    color: white;
+    padding-right: 19px;
+    font-size: 73px;
+}
+.sub-main-text {
+    font-family: 'Bilbo Swash Caps', cursive;
+    text-align: right;
+    color: white;
+    padding-right: 19px;
+    font-size: 34px;
+}
+
+.zurb-image {
+    height: 100px;
+}
+
+.powered-by {
+    font-family: 'Bilbo Swash Caps', cursive;
+    text-align: right;
+    color: white;
+    padding-right: 19px;
+    font-size: 34px;
+}
+.port-item {
+    background-color: greenyellow;
+    height: 250px;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+footer {
+    background-color: #95a5a6;
+    height: 300px;
+}
+
+.about {
+    background-color: #CBDDEF;
+}
+
+.skills {
+    background-color: #518EC0;
+}
+
+
+.portfolio {
+    background-color: #CBDDEF;
+}
+

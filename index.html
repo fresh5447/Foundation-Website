@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Douglas Walter | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
+      <link rel="stylesheet" href="css/main.css" />
+      <link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -42,11 +44,71 @@
   </nav>
   <!--NAVIGATION BAR END-->
 
+  <!--BEGIN MainHeader-->
+  <div class="row main-header">
+        <h1 class="main-text">Douglas Walter</h1>
+        <h2 class="sub-main-text">Fullstack Developer</h2>
+      <img src="img/foundation-hero%202.svg" alt="" class="zurb-image"/>
+  </div>
+  <!--END MainHeader-->
+
+  <!--BEGIN About-->
+  <div class="row about">
+    <h1> About</h1>
+      <img src="img/profilepic.jpg" alt=""/>
+      <p>I am a pretty much a bad ass. Tons of content later. Good stuff amiright? </p>
+  </div>
+  <!--END About-->
+
+
+
+
+
+  <!--BEGIN Skills-->
+  <div class="row skills">
+      <h1> Skills </h1>
+      <h5>I have experience working with the following technologies</h5>
+      <ul class="small-block-grid-4">
+          <li><img src="img/html5.png" alt=""/></li>
+          <li><img src="img/javascript%202.png" alt=""/></li>
+          <li><img src="img/nodejs%202.jpeg" alt=""/></li>
+          <li><img src="img/express%202.png" alt=""/></li>
+      </ul>
+      <ul class="small-block-grid-4">
+          <li><img src="img/css3%202.jpeg" alt=""/></li>
+          <li><img src="img/jquery2%202.jpeg" alt=""/></li>
+          <li><img src="img/rails%202.jpeg" alt=""/></li>
+          <li><img src="img/mongooodb%202.jpg" alt=""/></li>
+      </ul>
+  </div>
+  <!--END About-->
+
+  <!--BEGIN Portfolio-->
+  <div class="row portfolio">
+      <h1> Portfolio</h1>
+      <ul class="small-block-grid-3">
+          <li class="port-item">Project One</li>
+          <li>Project Two</li>
+          <li>Project Three</li>
+      </ul>
+  </div>
+  <!--END Portfolio-->
+<footer>
+    <div class="row">
+        <div class="large-6 columns">TOP DIV</div>
+        <div class="large-6 columns">BOTTOM DIV</div>
+    </div>
+</footer>
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.topbar.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/trianglify.js"></script>
     <script>
-      $(document).foundation();
+      var test = $(document).foundation();
+        console.log(test);
     </script>
   </body>
 </html>
